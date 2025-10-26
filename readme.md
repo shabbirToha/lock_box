@@ -48,10 +48,8 @@ Installation 🚀
 
 1.  **Clone or Download the Code**:
     -   With Git:
-
-        bash
-
         ```
+        bash
         git clone https://github.com/yourusername/lockbox.git
         cd lockbox
         ```
@@ -60,9 +58,8 @@ Installation 🚀
 2.  **Verify Go Installation**:
     -   Check Go is installed:
 
-        bash
-
         ```
+        bash
         go version
         ```
 
@@ -70,9 +67,8 @@ Installation 🚀
 3.  **Build (Optional)**:
     -   Create an executable for convenience:
 
-        bash
-
         ```
+        bash
         go build -o lockbox lockbox.go
         ```
 
@@ -87,25 +83,26 @@ LockBox is an interactive CLI tool. Run it and follow the prompts to encrypt or 
 
 -   **With Go**:
 
-    bash
+
 
     ```
+    bash
     go run lockbox.go
     ```
 
 -   **With Binary** (if built):
 
-    bash
-
     ```
+    bash
     ./lockbox
     ```
 
     On Windows:
 
-    cmd
+    
 
     ```
+    cmd
     lockbox.exe
     ```
 
@@ -131,9 +128,8 @@ LockBox is an interactive CLI tool. Run it and follow the prompts to encrypt or 
 
 1.  Start the program:
 
-    bash
-
     ```
+    bash
     go run lockbox.go
     ```
 
