@@ -111,8 +111,6 @@ LockBox is an interactive CLI tool. Run it and follow the prompts to encrypt or 
 
 -   You'll see a fun interactive menu:
 
-    text
-
     ```
     ===================================
      🔐 LockBox - Interactive CLI
@@ -141,7 +139,6 @@ LockBox is an interactive CLI tool. Run it and follow the prompts to encrypt or 
 
 2.  Select 1 (Encrypt files):
 
-    text
 
     ```
     Choice: 1
@@ -149,7 +146,6 @@ LockBox is an interactive CLI tool. Run it and follow the prompts to encrypt or 
 
 3.  Choose input files:
 
-    text
 
     ```
     -- Encrypt Files --
@@ -164,7 +160,6 @@ LockBox is an interactive CLI tool. Run it and follow the prompts to encrypt or 
     -   Pick 3 to select the Desktop directory. 🖥️
 4.  Configure options (press Enter for defaults):
 
-    text
 
     ```
     Compress files before encrypting? (reduces size) (y/n) [y]:
@@ -179,7 +174,6 @@ LockBox is an interactive CLI tool. Run it and follow the prompts to encrypt or 
 
 5.  Select output directory:
 
-    text
 
     ```
     Select output directory (current: .):
@@ -195,7 +189,6 @@ LockBox is an interactive CLI tool. Run it and follow the prompts to encrypt or 
     -   Enter ~/Desktop/encrypted or drag-and-drop the folder. 📂
 6.  Set rename pattern (optional):
 
-    text
 
     ```
     Rename pattern (e.g., {name}_locked{ext}, blank to use default suffix)
@@ -205,7 +198,6 @@ LockBox is an interactive CLI tool. Run it and follow the prompts to encrypt or 
     -   Press Enter for the default suffix (.enc). ✍️
 7.  Set include/exclude extensions (optional):
 
-    text
 
     ```
     Include extensions (comma-separated, e.g., jpg,png) - press enter for default image types
@@ -216,7 +208,6 @@ LockBox is an interactive CLI tool. Run it and follow the prompts to encrypt or 
 
 8.  Set log file (optional):
 
-    text
 
     ```
     Log file path (press enter to skip)
@@ -224,8 +215,6 @@ LockBox is an interactive CLI tool. Run it and follow the prompts to encrypt or 
     ```
 
 9.  Choose password or keyfile:
-
-    text
 
     ```
     Use a keyfile instead of password? (keyfile contents used as key) (y/n) [n]:
@@ -235,7 +224,6 @@ LockBox is an interactive CLI tool. Run it and follow the prompts to encrypt or 
 
 10. Confirm and proceed:
 
-    text
 
     ```
     Found 1 files to encrypt. Proceed? (y/n) [y]:
@@ -249,7 +237,6 @@ LockBox is an interactive CLI tool. Run it and follow the prompts to encrypt or 
 
 1.  Start the program and select 2 (Decrypt files):
 
-    text
 
     ```
     Choice: 2
@@ -257,7 +244,6 @@ LockBox is an interactive CLI tool. Run it and follow the prompts to encrypt or 
 
 2.  Choose input files:
 
-    text
 
     ```
     -- Decrypt Files --
@@ -286,7 +272,6 @@ LockBox is an interactive CLI tool. Run it and follow the prompts to encrypt or 
 
 3.  Configure options (press Enter for defaults):
 
-    text
 
     ```
     Process directories recursively? (include subfolders) (y/n) [y]:
@@ -301,7 +286,6 @@ LockBox is an interactive CLI tool. Run it and follow the prompts to encrypt or 
 
 4.  Select output directory:
 
-    text
 
     ```
     Select output directory (current: .):
@@ -316,7 +300,6 @@ LockBox is an interactive CLI tool. Run it and follow the prompts to encrypt or 
 
 5.  Set rename pattern, extensions, and log file (optional):
 
-    text
 
     ```
     Rename pattern (e.g., {name}_unlocked{ext}, blank to use default)
@@ -331,7 +314,6 @@ LockBox is an interactive CLI tool. Run it and follow the prompts to encrypt or 
 
 6.  Enter password:
 
-    text
 
     ```
     Use a keyfile instead of password? (y/n) [n]:
@@ -341,7 +323,6 @@ LockBox is an interactive CLI tool. Run it and follow the prompts to encrypt or 
 
 7.  Confirm and proceed:
 
-    text
 
     ```
     Found 1 files to decrypt. Proceed? (y/n) [y]:
@@ -355,7 +336,6 @@ LockBox is an interactive CLI tool. Run it and follow the prompts to encrypt or 
 
 1.  Select 3 (Settings / Defaults):
 
-    text
 
     ```
     Choice: 3
@@ -363,7 +343,6 @@ LockBox is an interactive CLI tool. Run it and follow the prompts to encrypt or 
 
 2.  Configure defaults:
 
-    text
 
     ```
     -- Settings (current values in brackets) --
@@ -404,8 +383,6 @@ Advanced Options 🧙‍♂️
 -   **Keyfile Support**:
     -   Use a file's contents as the encryption key:
 
-        text
-
         ```
         Use a keyfile instead of password? (y/n) [n]: y
         Path to keyfile: /home/yourusername/key.bin
@@ -414,7 +391,6 @@ Advanced Options 🧙‍♂️
 -   **Advanced Encryption Settings**:
     -   Customize PBKDF2 iterations, salt, and hash algorithm:
 
-        text
 
         ```
         Customize advanced settings (PBKDF2 iterations, salt, hash algo)? (y/n) [n]: y
